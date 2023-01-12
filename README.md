@@ -6,7 +6,7 @@
 
  <h2>Se creó un diagrama de red utilizando microservicios esenciales de AWS, de acuerdo a los requerimientos solicitados. El cual describo a continuación:</h2>
 
-<p>1. Se inició con una VPC ubicada en una región, la cual abarca tres zonas de disponibilidad, para garantizar una alta disponibilidad a la aplicación web. Cada zona es una réplica de la otra, siendo la AZ 1a la Master.
+<p> 1. Se inició con una VPC ubicada en una región, la cual abarca tres zonas de disponibilidad, para garantizar una alta disponibilidad a la aplicación web. Cada zona es una réplica de la otra, siendo la AZ 1a la Master.
 
 2. Se creó una DB Private Subnet en donde se alojarán las bases de datos, agregando Amazon RDS para las relacionales, y Amazon DynamoDB, para las no relacionales. Está subnet se encuentra separada, debido a que es contenido crítico.
 
